@@ -1,0 +1,176 @@
+
+/* font family */
+
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+/* universal selector */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* shareable styles */
+
+.most-used-color{
+    color: #252432;
+}
+
+
+.btn{
+padding: 10px 20px; 
+background-color:#4E47FF ;
+color: #FFFFFF;
+font-weight: bold;
+border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(8, 117, 117); 
+    transition: 0.5s;
+    box-shadow: 0px 3px 15px rgb(83, 3, 3) ;
+}
+
+
+/* hero section  */
+
+.hero {
+    /* max-width: 1440px;
+    max-height: 698px; */
+    background-image: url('/Assets/Hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding :50px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 30px 100px; */
+    /* padding: 51; */ 
+}
+.header .logo{
+    color: #4E47FF;
+    font-weight: 800;
+    font-size: 1.90em;
+}
+.flow-golden{
+color: #ffae00;
+}
+
+.hero-title{
+    text-align: center;
+    margin: 180px auto;
+    font-size: 45px;
+    color: #252432;
+}
+
+.stay-focused-btn{
+    margin-top:30px;
+    margin-bottom: 80px;
+    font-size: 15px;
+}
+
+/* action section start  */
+
+.action-section{
+    /* gap: 50px; */
+    display: flex;
+    margin: 180px 140px;
+ padding: 0px 100px 0 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-title{
+    font-size: 30px;
+font-weight: 800;
+}
+
+.action-sub-text{
+    width: 60%;
+    font-size: 20px;
+    color: #5a5a5e;
+    margin-top: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.action-section .launch-live-btn{
+margin-top: 20px;
+}
+
+.action-img img{
+border-radius: 10%;
+width: 350px;
+}
+
+.action-img img:hover{
+    box-shadow: 5px 5px 20px  #535353;
+    transition: 0.5s;
+}
+
+/* active users count section  */
+
+.section-users-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.parent-user-box{
+    background-color: #4d47ff25;
+    margin: 40px 160px;
+    padding: 50px ;
+    border-radius: 10px;
+}
+
+.parent-user-box .title-user-box{
+
+    text-align: center;
+    font-size: 21px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.count{
+    gap: 35px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.parent-user-box:hover{
+  background-color: #4d47ff25;
+    margin: 40px 160px;
+    padding: 50px ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #3300005e;
+    transition: 0.5s;
+
+}
+
+.count-sub-text{
+    font-size: 15px;
+    color: #00000065;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
