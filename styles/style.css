@@ -90,7 +90,7 @@ color: #ffae00;
 .action-section{
     /* gap: 50px; */
     display: flex;
-    margin: 180px 140px;
+    margin: 180px 120px;
  padding: 0px 100px 0 100px;
     justify-content: space-between;
     align-items: center;
@@ -173,4 +173,107 @@ width: 350px;
     display: flex;
     gap: 20px;
     justify-content: space-around;
+}
+
+/* reviews section  */
+
+
+.review-sec-title{
+    font-size:25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.sec-reviews{
+    margin: 30px 0px 100px 0px ;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.review-imgs{
+    padding: 20px;
+    width: 33%;
+    box-shadow: 5px 5px 20px #F2EDED;
+    border-radius: 10px;
+}
+
+.review-imgs:hover{
+    width: 33%;
+    box-shadow: 5px 5px 20px grey;
+    transition: 0.5s;
+}
+.user-title{
+    font-weight: bold;
+    margin: 5px 0 3px 0;
+}
+.avatar{
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.avatar-name{
+    margin: 9px auto 0px 9px ;
+    color: #1e1e1ecc;
+
+}
+
+.date{
+ color: #B3B3B3;
+}
+.avatar-info{
+    display: flex;
+
+}
+
+review-imgs p{
+    margin: 5px 0px 5px 0px;
+}
+
+/* optional section */
+
+.optional-sec{
+    margin: 130px 150px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.optional-sec{
+    font-size: 25px;
+    font-weight: 800;
+}
+.optional-sec p{
+    color: #0000008a;
+   font-size: 16px;
+   margin: 5px auto 10px auto;
+   margin-top: 20px;
+}
+.op-btn{
+    margin-top: 10px;
+}
+.optional-child{
+    display: flex;
+justify-content: center;
+padding: 50px;
+}
+
+.optional-child img{
+    border-radius: 20px;
+}
+
+/* contact form */
+
+.contact{
+    display: flex;
+}
+
+.contact-title{
+    font-weight: 800;
+    font-size: 80px;
+    padding: 80px 150px;
+    /* width: 150px; */
 }
