@@ -50,7 +50,7 @@ border-radius: 10px;
 .hero {
     /* max-width: 1440px;
     max-height: 698px; */
-    background-image: url('/Assets/Hero-bg.png');
+    background-image: url('./Assets/Hero-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding :50px;
@@ -269,11 +269,82 @@ padding: 50px;
 
 .contact{
     display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    margin: 200px 0 100px 0 ;
 }
 
 .contact-title{
     font-weight: 800;
     font-size: 80px;
     padding: 80px 150px;
+    width: 600px;
     /* width: 150px; */
+}
+
+.contact-form{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin: 90px 190px;
+}
+
+.contact-form form{
+    color: #000000;
+}
+
+.contact-form textarea{
+ width: 170px;
+ height: 100px;
+}
+
+.contact-form input,textarea{
+   margin: 3px 100px 10px 0;
+    display: flex;
+    padding: 10px;
+
+}
+
+.contact-btn{
+    margin-top: 5px;
+    width: 190px;
+}
+
+
+footer{
+    text-align: center;
+    margin: 100px;
+}
+footer h2{
+    color: #4E47FF;
+    font-size: 50px;
+}
+
+footer p{
+    padding: 20px;
+    margin: 10px 0px;
+    color: #8987A1;
+    font-size: 15px;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+
+}
+footer ul li {
+list-style-type: none;
+display: inline-block;
+margin: 0 5px 0 5px;
+}
+
+footer ul li a{
+text-decoration: none;
+color: #8987A1;
+}
+
+footer ul li a:hover{
+
+color: #000000;
+transition: 0.5s;
 }
